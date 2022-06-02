@@ -1,4 +1,4 @@
-name: base
+name: actionclip
 channels:
   - conda-forge
   - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
@@ -97,7 +97,6 @@ dependencies:
     - addict==2.4.0
     - aiohttp==3.7.4.post0
     - antlr4-python3-runtime==4.8
-    - apex==0.1
     - async-timeout==3.0.1
     - attrs==21.2.0
     - black==21.4b2
@@ -119,7 +118,6 @@ dependencies:
     - fsspec==2021.6.1
     - ftfy==6.0.3
     - future==0.18.2
-    - fvcore==0.1.5
     - gitdb==4.0.7
     - gitpython==3.1.18
     - google-auth==1.32.1
@@ -144,7 +142,6 @@ dependencies:
     - mypy-extensions==0.4.3
     - ninja==1.10.0.post2
     - numpy==1.20.3
-    - nvidia-dali-cuda110==1.3.0
     - nvidia-pyindex==1.0.9
     - oauthlib==3.1.1
     - omegaconf==2.1.0
@@ -177,7 +174,6 @@ dependencies:
     - pytorchvideo==0.1.2
     - pytz==2021.1
     - pyyaml==5.4.1
-    - randaugment==0.1
     - regex==2021.7.1
     - requests-oauthlib==1.3.0
     - rsa==4.7.2
@@ -195,10 +191,8 @@ dependencies:
     - tensorboardx==2.1
     - termcolor==1.1.0
     - toml==0.10.2
-    - torch==1.8.1+cu111
     - torchaudio==0.8.1
     - torchmetrics==0.4.1
-    - torchvision==0.9.1+cu111
     - typing-extensions==3.7.4.3
     - umsgpack==0.1.0
     - wandb==0.12.0
@@ -208,4 +202,4 @@ dependencies:
     - yapf==0.31.0
     - yarl==1.6.3
     - zipp==3.4.1
-prefix: /home/ock/miniconda3
+prefix: /home/gzara/miniconda3

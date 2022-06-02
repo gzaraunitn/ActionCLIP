@@ -4,20 +4,23 @@
 
 import numpy
 
+
 def gen_label(labels):
     num = len(labels)
-    gt = numpy.zeros(shape=(num,num))
+    gt = numpy.zeros(shape=(num, num))
     for i, label in enumerate(labels):
         for k in range(num):
             if labels[k] == label:
-                gt[i,k] = 1
+                gt[i, k] = 1
     return gt
+
 
 def convert_models_to_fp32(model):
     for p in model.parameters():
         p.data = p.data.float()
         if p.grad is not None:
             p.grad.data = p.grad.data.float()
+
 
 def convert_models_to_fp16(model):
     print(model)
